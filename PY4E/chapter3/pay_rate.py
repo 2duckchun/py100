@@ -1,5 +1,5 @@
-hrs = input('Enter working hours: ')
-payrate = input('Enter payrate: ')
+hrs = input('Enter hours: ')
+payrate = input('Enter rate: ')
 hours = float(hrs)
 rate = float(payrate)
 
