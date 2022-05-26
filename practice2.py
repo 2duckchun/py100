@@ -1,19 +1,6 @@
-sh = input('Enter Hours: ')
-sr = input('Enter Rate: ')
-try:
-    fh = float(sh)
-    fr = float(sr)
-except:
-    print('Error, please enter numeric input') 
-    quit()
-
-if fh > 40 :
-    print('Overtime')
-    reg = fr * fh
-    otp = (fh - 40.0) * (fr * 0.5)
-    print(reg, otp)
-    xp = reg + otp
-else :
-    print('regular')
-    xp = fh * fr
-    print('pay:', xp)
+word = 'banana'
+count = 0
+for letter in word:
+    if letter == 'n':
+        count = count + 1
+print(count)
